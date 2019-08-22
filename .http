@@ -1,0 +1,22 @@
+POST http://localhost:4000/graphql HTTP/1.1
+X-Request-Type: GraphQL
+Accept: application/json
+
+{
+    field(arg: "users") {
+        name        
+    }
+}
+
+###
+
+
+POST http://localhost:4000/graphql HTTP/1.1
+X-Request-Type: GraphQL
+Accept: application/json
+
+{
+   users{
+      id    
+   }
+}

@@ -1,0 +1,11 @@
+{
+  "name": "graphql-basics",
+  "version": "1.0.0",  
+  "main": "server.js",
+  "scripts": {
+    "dev:server": "nodemon server.js",
+    "json:server": "json-server --watch data.json"
+  },
+  "author": "Alpha Olomi",
+  "license": "MIT"  
+}

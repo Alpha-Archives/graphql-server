@@ -17,8 +17,7 @@
     "start": "node server.js",
     "dev:server": "nodemon server.js",
     "json:server": "json-server --watch data.json"
-  },
-  "keywords": [],
+  },  
   "author": "Alpha Olomi",
-  "license": "ISC"
+  "license": "MIT"
 }

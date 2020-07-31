@@ -4,12 +4,13 @@
   "description": "A bare minimal Node.js/Express CRUD backend using GraphQL and JSON-Server",
   "main": "schema.js",
   "dependencies": {
-    "axios": "^0.19.0",
+    "axios": "^0.19.2",
     "express": "^4.17.1",
     "express-graphql": "^0.11.0",
-    "graphql": "^15.0.0",
-    "json-server": "^0.16.0",
-    "nodemon": "^2.0.0"
+    "express-session": "^1.17.1",
+    "graphql": "^15.3.0",
+    "json-server": "^0.16.1",
+    "nodemon": "^2.0.4"
   },
   "devDependencies": {},
   "scripts": {
@@ -17,7 +18,7 @@
     "start": "node server.js",
     "dev:server": "nodemon server.js",
     "json:server": "json-server --watch data.json"
-  },  
+  },
   "author": "Alpha Olomi",
   "license": "MIT"
 }

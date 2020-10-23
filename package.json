@@ -4,7 +4,7 @@
   "description": "A bare minimal Node.js/Express CRUD backend using GraphQL and JSON-Server",
   "main": "schema.js",
   "dependencies": {
-    "axios": "^0.20.0",
+    "axios": "^0.21.0",
     "express": "^4.17.1",
     "express-graphql": "^0.11.0",
     "express-session": "^1.17.1",
